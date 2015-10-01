@@ -1,32 +1,32 @@
 ---
-broadcast-tag: [BROADCAST]
-broadcast-color: §l§n§f
-brm-color:
+broadcast-tag: "[BROADCAST]"
+broadcast-color: "§l§n§f"
+brm-color: " "
 
-bgod-tag: [GOD]
-bgod-color: §l§6
-bgm-color:
+bgod-tag: "[GOD]"
+bgod-color: "§l§6"
+bgm-color: " "
 
 
-bhero-tag: [HEROBRINE]
-bhero-color:§l§c
-bhm-color:
+bhero-tag: "[HEROBRINE]"
+bhero-color: "§l§c"
+bhm-color: " "
 
-announce-tag: [ANNOUNCE]
-announce-color:§l§b
-anm-color:
+announce-tag: "[ANNOUNCE]"
+announce-color: "§l§b"
+anm-color: " "
 
-server-tag: [SERVER]
-server-color:§l§d
-sem-color:
+server-tag: "[SERVER]"
+server-color: "§l§d"
+sem-color: " "
 
-console-tag: [CONSOLE]
-console-color:§l§7
-com-color:
+console-tag: "[CONSOLE]"
+console-color: "§l§7"
+com-color: " "
 
-bcia-tag: [CIA]
-bcia-color:§l§a
-bcm-color:
+bcia-tag: "[CIA]"
+bcia-color: "§l§a"
+bcm-color: " "
 
 #Color Codes
 ##Taken from pocketmine\utils\TextFormat;
