@@ -2,32 +2,38 @@
 broadcast-tag: "[BROADCAST]"
 broadcast-color: "§l§n§f"
 brm-color: " "
+broadcast-shortcut: "broadcast"
 
 bgod-tag: "[GOD]"
 bgod-color: "§l§6"
 bgm-color: " "
+bgod-shortcut: "bgod"
 
 
 bhero-tag: "[HEROBRINE]"
 bhero-color: "§l§c"
 bhm-color: " "
+bhero-shortcut: "bhero"
 
 announce-tag: "[ANNOUNCE]"
 announce-color: "§l§b"
 anm-color: " "
+announce-shortcut: "announce"
 
 server-tag: "[SERVER]"
 server-color: "§l§d"
 sem-color: " "
+server-shortcut: "server"
 
 console-tag: "[CONSOLE]"
 console-color: "§l§7"
 com-color: " "
+console-shortcut: "console"
 
 bcia-tag: "[CIA]"
 bcia-color: "§l§a"
 bcm-color: " "
-
+bcia-shortcut: "bcia"
 #Color Codes
 ##Taken from pocketmine\utils\TextFormat;
 
