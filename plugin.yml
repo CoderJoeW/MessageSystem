@@ -3,7 +3,7 @@ author: FlamingGenius
 description: all messaging options in one plugin
 main: FlamingGenius\MessageSystem\main
 api: 1.12.0
-version: 1.0.0
+version: 1.0.1
 commands:
  broadcast:
   description: Broadcast a msg
