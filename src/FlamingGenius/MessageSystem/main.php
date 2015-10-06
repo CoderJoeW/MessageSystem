@@ -24,13 +24,14 @@ class main extends PluginBase{
   $player = $this->getServer()->getPlayer()->getName();
   $permission = $this->getConfig->get("default-permission");
   if($player->hasPermission($permission){
-   if(strtolower($cmd) == $sc){
-    $tag = $this->getConfig()->get("broadcast-tag");
-    $color = $this->getConfig()->get("broadcast-color");
-    $mcolor = $this->getConfig()->get("brm-color");
-    $this->getServer()->broadcastMessage($color . $tag . $mcolor . " " . $msg);
-   }
-
+   if(strtolower($cmd) == "ms")
+    if($args[0] == $sc){
+     $tag = $this->getConfig()->get("broadcast-tag");
+     $color = $this->getConfig()->get("broadcast-color");
+     $mcolor = $this->getConfig()->get("brm-color");
+     $this->getServer()->broadcastMessage($color . $tag . $mcolor . " " . $msg);
+    }
+   
    elseif(strtolower($cmd) == $sc){
     $tag = $this->getConfig()->get("bgod-tag");
     $sc = $this->getConfig->()->get("bgod-shortcut");
