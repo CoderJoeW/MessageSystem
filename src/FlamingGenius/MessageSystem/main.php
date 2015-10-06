@@ -22,7 +22,8 @@ class main extends PluginBase{
   $msg = implode(" " , $args);
   $sc = $this->getConfig->()->get("broadcast-shortcut");
   $player = $this->getServer()->getPlayer()->getName();
-  if($player->hasPermission("ms.command"){
+  $permission = $this->getConfig->get("default-permission");
+  if($player->hasPermission($permission){
    if(strtolower($cmd) == $sc){
     $tag = $this->getConfig()->get("broadcast-tag");
     $color = $this->getConfig()->get("broadcast-color");
