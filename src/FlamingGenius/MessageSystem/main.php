@@ -20,7 +20,7 @@ class main extends PluginBase{
  public function onCommand(CommandSender $sender, Command $command, $label, array $args){
   $cmd = $command->getName();
   $msg = implode(" " , $args);
-  $sc = $this->getConfig->()->get("broadcast-shortcut");
+  $sc = $this->getConfig()->get("broadcast-shortcut");
   $player = $this->getServer()->getPlayer()->getName();
   $permission = $this->getConfig->get("default-permission");
   if($player->hasPermission($permission){
