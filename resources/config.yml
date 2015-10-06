@@ -1,4 +1,7 @@
 ---
+##Default Permission
+default-permission: "ms.command";
+
 broadcast-tag: "[BROADCAST]"
 broadcast-color: "§l§n§f"
 brm-color: " "
