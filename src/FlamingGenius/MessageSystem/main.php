@@ -31,6 +31,21 @@ class main extends PluginBase{
    case "bgod":
     
     break;
+   case "bhero":
+    
+   break;
+   case "announce":
+    
+   break;
+   case "server":
+    
+   break;
+   case "console":
+    
+   break;
+   case "bcia":
+    
+   break;
   }
 
 
