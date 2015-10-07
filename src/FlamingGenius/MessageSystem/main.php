@@ -23,7 +23,7 @@ class main extends PluginBase{
   $sc = $this->getConfig()->get("broadcast-shortcut");
   $player = $this->getServer()->getPlayer()->getName();
   $permission = $this->getConfig->get("default-permission");
-  if($player->hasPermission($permission){
+  if($player->hasPermission($permission)){
    if(strtolower($cmd) == $sc){
     $tag = $this->getConfig()->get("broadcast-tag");
     $color = $this->getConfig()->get("broadcast-color");
