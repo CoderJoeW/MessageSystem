@@ -31,7 +31,7 @@ class main extends PluginBase{
     $this->getServer()->broadcastMessage($color . $tag . $mcolor . " " . $msg);
    }
 
-   elseif(strtolower($cmd) == $sc){
+   elseif(strtolower($cmd) == "bgod"){
     $tag = $this->getConfig()->get("bgod-tag");
     $sc = $this->getConfig->()->get("bgod-shortcut");
     $color = $this->getConfig()->get("bgod-color");
@@ -39,40 +39,40 @@ class main extends PluginBase{
     $this->getServer()->broadcastMessage($color . $tag . $mcolor . " " . $msg);
    }
 
-   elseif(strtolower($cmd) == $sc){
-    $sc = $this->getConfig->()->get("bhero-shortcut");
+   elseif(strtolower($cmd) == "bhero"){
+    
     $tag = $this->getConfig()->get("bhero-tag");
     $color = $this->getConfig()->get("bhero-color");
     $mcolor= $this->getConfig()->get("bhm-color");
     $this->getServer()->broadcastMessage($color . $tag . $mcolor . " " . $msg);
    }
 
-   elseif(strtolower($cmd) == $sc){
-    $sc = $this->getConfig->()->get("announce-shortcut");
+   elseif(strtolower($cmd) == "announce"){
+   
     $tag = $this->getConfig()->get("announce-tag");
     $color = $this->getConfig()->get("announce-color");
     $mcolor= $this->getConfig()->get("anm-color");
     $this->getServer()->broadcastMessage($color . $tag . $mcolor . " " . $msg);
    }
 
-   elseif(strtolower($cmd) == $sc){
-    $sc = $this->getConfig->()->get("server-shortcut");
+   elseif(strtolower($cmd) == "server"){
+   
     $tag = $this->getConfig()->get("server-tag");
     $color = $this->getConfig()->get("server-color");
     $mcolor= $this->getConfig()->get("sem-color");
     $this->getServer()->broadcastMessage($color . $tag . $mcolor . " " . $msg);
    }
 
-   elseif(strtolower($cmd) == $sc){
-    $sc = $this->getConfig->()->get("console-shortcut");
+   elseif(strtolower($cmd) == "bcia"){
+   
     $tag = $this->getConfig()->get("console-tag");
     $color = $this->getConfig()->get("console-color");
     $mcolor= $this->getConfig()->get("com-color");
     $this->getServer()->broadcastMessage($color . $tag . $mcolor ." " . $msg);
    }
   
-   elseif(strtolower($cmd) == $sc){
-    $sc = $this->getConfig->()->get("bcia-shortcut");
+   elseif(strtolower($cmd) == "bcia"){
+ 
     $tag = $this->getConfig()->get("bcia-tag");
     $color = $this->getConfig()->get("bcia-color");
     $mcolor= $this->getConfig()->get("bcm-color");
