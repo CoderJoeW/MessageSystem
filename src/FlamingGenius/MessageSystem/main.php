@@ -19,27 +19,28 @@ class main extends PluginBase{
 
  public function onCommand(CommandSender $sender, Command $command, $label, array $args){
   $cmd = $this->command->getName();
+  $msg = implode(" " , $args);
   if(strtolower($cmd) == "ms"){
    if($args[0] == "broadcast"){
-    //broadcast code
+    $this->getServer()->broadcastMessage($msg);
    }
    elseif($args[0] == "bgod"){
-
+    $this->getServer()->broadcastMessage($msg);
    }
    elseif($args[0] == "bhero"){
-
+    $this->getServer()->broadcastMessage($msg);
    }
    elseif($args[0] == "announce"){
-
+    $this->getServer()->broadcastMessage($msg);
    }
    elseif($args[0] == "server"){
-
+    $this->getServer()->broadcastMessage($msg);
    }
    elseif($args[0] == "console"){
-
+    $this->getServer()->broadcastMessage($msg);
    }
    elseif($args[0] == "bcia"){
-
+    $this->getServer()->broadcastMessage($msg);
    }
    elseif($args[0] == "help"){
     $help = $this->getConfig()->get("help-list");
