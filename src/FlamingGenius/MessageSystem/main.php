@@ -46,7 +46,7 @@ class main extends PluginBase{
     $help = $this->getConfig()->get("help-list");
     $sender->sendMessage($help);
    }
-   else($args[0] == " "){
+   elseif($args[0] != "help" or "bcia" or "console" or "server" or "announce" or "bhero" or "bgod" or "broadcast"){
     $sender->sendMessage("That is not a configured command");
    }
   }
