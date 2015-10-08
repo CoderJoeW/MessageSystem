@@ -21,7 +21,32 @@ class main extends PluginBase{
   $cmd = $this->command->getName();
   if(strtolower($cmd) == "ms"){
    if($args[0] == "broadcast"){
-    
+    //broadcast code
+   }
+   elseif($args[0] == "bgod"){
+
+   }
+   elseif($args[0] == "bhero"){
+
+   }
+   elseif($args[0] == "announce"){
+
+   }
+   elseif($args[0] == "server"){
+
+   }
+   elseif($args[0] == "console"){
+
+   }
+   elseif($args[0] == "bcia"){
+
+   }
+   elseif($args[0] == "help"){
+    $help = $this->getConfig()->get("help-list");
+    $sender->sendMessage($help);
+   }
+   else($args[0] == " "){
+    $sender->sendMessage("That is not a configured command");
    }
   }
  }
